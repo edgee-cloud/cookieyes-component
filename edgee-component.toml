@@ -1,0 +1,17 @@
+manifest-version = 1
+
+[component]
+name = "cookieyes"
+version = "1.0.0"
+
+category = "consent-management"
+subcategory = "consent-mapping"
+description = "CookieYes Consent Mapping lets you forward the user consent managed by CookieYes CMP with all your other components."
+documentation = "https://www.edgee.cloud/docs/components/cmp/cookieyes-consent-mapping"
+repository = "https://github.com/edgee-cloud/cookieyes-component"
+language = "Rust"
+wit-version = "1.0.0"
+
+[component.build]
+command = "cargo build --target wasm32-wasip2 --release --target-dir ./target && (mv ./target/wasm32-wasip2/release/example_rust_component.wasm ./component.wasm || true)"
+output_path = "component.wasm"
