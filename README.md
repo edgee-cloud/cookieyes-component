@@ -9,7 +9,7 @@
 </p>
 </div>
 
-<h1 align="center">Axeptio component for Edgee</h1>
+<h1 align="center">CookieYes component for Edgee</h1>
 
 [![Coverage Status](https://coveralls.io/repos/github/edgee-cloud/cookieyes-component/badge.svg)](https://coveralls.io/github/edgee-cloud/cookieyes-component)
 [![GitHub issues](https://img.shields.io/github/issues/edgee-cloud/cookieyes-component.svg)](https://github.com/edgee-cloud/cookieyes-component/issues)
